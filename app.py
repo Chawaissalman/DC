@@ -6,8 +6,7 @@ and business-case optimizer for advanced cooling architectures.
 
 Uses CoolProp for refrigerant / fluid property calculations.
 """
-import sys, os
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
 import streamlit as st
 
 st.set_page_config(
