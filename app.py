@@ -106,14 +106,14 @@ st.sidebar.caption(
 
 # ── Page Router ─────────────────────────────────────────────
 if page.startswith("🔎"):
-    from pages import parametric_screening
+    from engine import parametric_screening
     parametric_screening.render()
 elif page.startswith("🔬"):
-    from pages import thermo_twin
+    from engine import thermo_twin
     thermo_twin.render()
 elif page.startswith("💰"):
-    from pages import techno_economic
+    from engine import techno_economic
     techno_economic.render()
 elif page.startswith("🏢"):
-    from pages import business_case
+    from engine import business_case
     business_case.render()
