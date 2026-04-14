@@ -13,7 +13,7 @@ import plotly.express as px
 import pandas as pd
 import numpy as np
 
-from pages.core_engine import (
+from engine.core_engine import (
     ARCHITECTURES, CLIMATES,
     run_thermo_model, cp_fluid, latent_heat, saturation_pressure,
     ThermoResult,
