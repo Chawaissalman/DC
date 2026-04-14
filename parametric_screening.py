@@ -10,7 +10,7 @@ import plotly.graph_objects as go
 import plotly.express as px
 import pandas as pd
 
-from pages.core_engine import (
+from engine.core_engine import (
     ARCHITECTURES, CLIMATES, REGULATIONS,
     screen_architectures, CoolingArch,
 )
