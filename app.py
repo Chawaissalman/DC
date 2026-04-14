@@ -7,6 +7,13 @@ and business-case optimizer for advanced cooling architectures.
 Uses CoolProp for refrigerant / fluid property calculations.
 """
 
+import sys, os, pathlib
+# Ensure the directory containing app.py is on sys.path
+# (Streamlit Cloud doesn't always do this)
+_APP_DIR = str(pathlib.Path(__file__).resolve().parent)
+if _APP_DIR not in sys.path:
+    sys.path.insert(0, _APP_DIR)
+
 import streamlit as st
 
 st.set_page_config(
