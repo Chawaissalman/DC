@@ -12,7 +12,7 @@ import plotly.express as px
 import pandas as pd
 import numpy as np
 
-from pages.core_engine import (
+from engine.core_engine import (
     ARCHITECTURES, CLIMATES, REGULATIONS,
     run_thermo_model, run_financial_model,
     score_business_cases, BusinessScenario,
