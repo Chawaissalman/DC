@@ -1,0 +1,6 @@
+streamlit>=1.30
+CoolProp>=6.6
+numpy
+numpy-financial
+plotly>=5.18
+pandas>=2.0
